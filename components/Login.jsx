@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useMoralis } from "react-moralis";
+import BoredApe from "../public/BoredApe.jpeg";
 
 function Login() {
   const { authenticate } = useMoralis();
@@ -10,7 +11,7 @@ function Login() {
         {/* Logo */}
         <Image
           className="object-cover rounded-full"
-          src="https://links.papareact.com/3pi"
+          src={BoredApe}
           height={200}
           width={200}
         />

@@ -66,7 +66,9 @@ function Messages() {
               className={"text-[10px] italic text-gray-400"}
               datetime={Date.now()}
             />
-            <p className={"absolute -bottom-5 text-xs text-blue-400"}>John</p>
+            <p className={"absolute -bottom-5 text-xs text-blue-400"}>
+              John from Dapp Chat
+            </p>
           </div>
         ) : (
           data.map((message) => <Message key={message.id} message={message} />)

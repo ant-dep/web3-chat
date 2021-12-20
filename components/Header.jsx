@@ -2,6 +2,7 @@ import { useMoralis } from "react-moralis";
 import Image from "next/image";
 import Avatar from "./Avatar";
 import ChangeUserName from "./ChangeUserName";
+import BoredApe from "../public/BoredApe.jpeg";
 
 function Header() {
   const { user } = useMoralis();
@@ -13,7 +14,7 @@ function Header() {
             layout="fill"
             objectFit="cover"
             className="rounded-full"
-            src="https://links.papareact.com/3pi"
+            src={BoredApe}
             width={50}
             height={50}
           />
