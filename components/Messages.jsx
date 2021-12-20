@@ -1,7 +1,9 @@
 import { useRef, useState } from "react";
 import { ByMoralis, useMoralis, useMoralisQuery } from "react-moralis";
+import Avatar from "./Avatar";
 import Message from "./Message";
 import SendMessage from "./SendMessage";
+import TimeAgo from "timeago-react";
 
 function Messages() {
   const { user } = useMoralis();
@@ -48,9 +50,27 @@ function Messages() {
       </div>
 
       <div className="space-y-10 p-4">
-        {data.map((message) => (
-          <Message key={message.id} message={message} />
-        ))}
+        {data.length === 0 ? (
+          <div className={"flex items-end space-x-2 relative"}>
+            <div className={"relative h-8 w-8"}>
+              <Avatar username={"Rob"} />
+            </div>
+            <div
+              className={
+                "flex space-x-4 p-3 rounded-lg rounded-bl-none bg-blue-400"
+              }
+            >
+              <p>Welcome to Chat 3.0! A Decentralized Chat App 🔥</p>
+            </div>
+            <TimeAgo
+              className={"text-[10px] italic text-gray-400"}
+              datetime={Date.now()}
+            />
+            <p className={"absolute -bottom-5 text-xs text-blue-400"}>John</p>
+          </div>
+        ) : (
+          data.map((message) => <Message key={message.id} message={message} />)
+        )}
       </div>
 
       <div className="flex justify-center">
@@ -59,9 +79,7 @@ function Messages() {
 
       <div ref={endOfMessagesRef} className="text-center text-gray-400">
         <p>
-          {data.length > 0
-            ? `You're up to date ${user.getUsername()}!`
-            : "Show previous messages"}
+          {data.length > 0 ? `You're up to date ${user.getUsername()}!` : ""}
         </p>
       </div>
     </div>

@@ -3,6 +3,7 @@ import TimeAgo from "timeago-react";
 import Avatar from "./Avatar";
 
 function Message({ message }) {
+  console.log("message", message);
   const { user } = useMoralis();
 
   const isUserMessage = message.get("ethAddress") === user.get("ethAddress");
