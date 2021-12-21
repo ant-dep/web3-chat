@@ -30,7 +30,7 @@ function Messages() {
 
   const updateDuration = () => {
     if (data.length === 0) {
-      setMinDuration(500);
+      setMinDuration(minDurantion + 500);
     } else {
       setMinDuration(minDuration + 15);
     }
