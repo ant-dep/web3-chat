@@ -1,27 +1,26 @@
-# Next.js + Tailwind CSS Example
+<h1>Web 3.0 Dapp Chat</h1>
+</br></br>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+👇 <em>Result here</em>👇 </br>
+https://dapp-chat.vercel.app/
 
-## Preview
+</br></br></br>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<h2>FRONTEND & BACKEND</h2></br>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<img src="https://moralis.io/wp-content/uploads/2021/06/Moralis-Glass-Favicon.svg" width="100" alt="Moralis logo"> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FReact_logo_wordmark.png&f=1&nofb=1" width="200" alt="React.js logo"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DWovAEyS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lr4rm1p2pcezmxqs5dqk.png" width="200" alt="Next.js logo">
+</br></br></br></br></br>
 
-## Deploy your own
+<h2>Features</h2></br>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+👉 <em>React x NextJs</em></br>
+👉 <em>Moralis</em> wallet login</br>
+👉 <em>Moralis</em> realtime web 3.0 Database</br>
+👉 <em>Vercel</em> hosting
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+</br></br></br>
 
-## How to use
+<hr class="line"></br></br></br>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<img src="https://github.com/ant-dep/web3-chat/blob/master/public/preview1.png?raw=true" width="1000" alt="Preview 1"> </br>
+<img src="https://github.com/ant-dep/web3-chat/blob/master/public/preview2.png?raw=true" width="1000" alt="Preview 2">
